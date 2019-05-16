@@ -1,3 +1,5 @@
+const server = require("./server");
+
 const port = 4000 || process.env.port;
 if (process.env.NODE_ENV !== "test") {
   server.listen(port, () => {
